@@ -284,12 +284,12 @@ h2 {
 
 .contenedor {
     display: flex;
-    flex-direction: column; /* Asegura disposición vertical */
-    align-items: center;
-    justify-content: center;
+    flex-direction: column; /* Coloca los elementos uno sobre el otro */
+    align-items: center; /* Asegura que estén centrados horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
     gap: 20px; /* Espaciado entre las secciones */
     width: 100%;
-    max-width: 800px; /* Define un ancho máximo */
+    max-width: 600px; /* Establece un ancho fijo para las secciones */
     margin: 0 auto; /* Centra horizontalmente */
     text-align: center;
 }
