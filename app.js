@@ -43,7 +43,11 @@ let cargarCabecero = () =>{
     document.getElementById('porcentaje').innerHTML = formatoPorcentaje(porcentajeEgreso);
     document.getElementById('ingresos').innerHTML = formatoMoneda(totalIngresos());
     document.getElementById('egresos').innerHTML = formatoMoneda(totalEgresos());
-}
+
+    if(presupuesto < 500){
+        alert("Bajo presupuesto, ten cuidado con tus gastos");
+    }
+       }
 
 
 //Dar formato de moneda a los valores
