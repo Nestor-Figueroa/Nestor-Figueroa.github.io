@@ -47,7 +47,7 @@ let cargarCabecero = () =>{
     if(presupuesto < 500){
         alert("Bajo presupuesto, ten cuidado con tus gastos");
     }
-       }
+}
 
 
 //Dar formato de moneda a los valores
