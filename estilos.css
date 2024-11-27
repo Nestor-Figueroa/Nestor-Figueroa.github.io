@@ -281,3 +281,35 @@ h2 {
     border-radius: 5px;
     transition: border 0.3s;
 }
+
+.contenedor {
+    display: flex;
+    flex-direction: column; /* Asegura disposición vertical */
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Espaciado entre las secciones */
+    width: 100%;
+    max-width: 800px; /* Define un ancho máximo */
+    margin: 0 auto; /* Centra horizontalmente */
+    text-align: center;
+}
+
+.ingreso, .egreso {
+    width: 100%; /* Asegura que las secciones ocupen el mismo ancho */
+    padding: 20px;
+    border-radius: 8px;
+    background: #f4f4f4;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Opcional: texto alineado a la izquierda */
+}
+
+.ingreso_titulo, .egreso_titulo {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.agregar {
+    margin-bottom: 20px; /* Espacio entre el formulario y la sección de ingresos */
+}
+
